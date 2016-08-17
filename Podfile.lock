@@ -1,0 +1,18 @@
+PODS:
+  - HHRouter (0.1.9)
+  - Masonry (1.0.1)
+  - MJExtension (3.0.13)
+
+DEPENDENCIES:
+  - HHRouter (~> 0.1.8)
+  - Masonry
+  - MJExtension (~> 3.0.10)
+
+SPEC CHECKSUMS:
+  HHRouter: c096524e95a07a1970e6e23a19ee5a9592dc326d
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+
+PODFILE CHECKSUM: 67f0594b980c7822caefaa2184ef086686b63536
+
+COCOAPODS: 1.0.1
