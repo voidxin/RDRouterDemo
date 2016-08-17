@@ -7,7 +7,8 @@
 //
 
 #import "RDModelViewController.h"
-
+#import "RDCarModel.h"
+#import "MJExtension.h"
 @interface RDModelViewController ()
 
 @end
@@ -16,8 +17,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
 }
+- (void)setParams:(NSDictionary *)params{
+    [super setParams:params];
+    NSString *modelStr=params[@"model"];
+    RDCarModel *carModel=[RDCarModel mj_objectWithKeyValues:modelStr];
+    NSLog(@"car brand is:%@",carModel.brand);
+     NSLog(@"car price is:%@",carModel.price);
+     NSLog(@"car color is:%@",carModel.color);
+    
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

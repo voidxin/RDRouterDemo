@@ -17,6 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self initUI];
+}
+-(void)initUI{
+    self.view.backgroundColor=[UIColor whiteColor];
+}
+
+- (void)setParams:(NSDictionary *)params{
+    NSString *titleStr=params[@"title"];
+    self.title=titleStr;
 }
 
 - (void)didReceiveMemoryWarning {

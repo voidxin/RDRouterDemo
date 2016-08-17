@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface RDModelViewController : UIViewController
+#import "RDBaseViewController.h"
+@interface RDModelViewController : RDBaseViewController
 
 @end

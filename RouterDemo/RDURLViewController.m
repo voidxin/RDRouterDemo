@@ -18,6 +18,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
+- (void)setParams:(NSDictionary *)params{
+    [super setParams:params];
+    NSString *urlString=[[NSString stringWithFormat:@"%@",params[@"urlStr"]] stringByReplacingOccurrencesOfString:@"*" withString:@"/"];
+    NSLog(@"url是：%@",urlString);
+   
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

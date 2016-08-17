@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface RDCarModel : NSObject
-
+@property(nonatomic,copy)NSString *brand;
+@property(nonatomic,copy)NSString *price;
+@property(nonatomic,copy)NSString *color;
 @end

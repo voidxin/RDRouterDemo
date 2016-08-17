@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface RDURLViewController : UIViewController
+#import "RDBaseViewController.h"
+@interface RDURLViewController : RDBaseViewController
 
 @end

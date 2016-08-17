@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface RDBaseViewController : UIViewController
-
+- (void)setParams:(NSDictionary *)params;
 @end
